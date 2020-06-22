@@ -5,7 +5,7 @@ In this project, we implement Word2vec model using the skipgram algorithm. Stoch
 
 We use the below negative sampling loss function instead of the usual naive softmax to achieve efficiency in training. In the below equation, &sigma;(x) corresponds to the sigmoid function 
 
-<img height=50 src="./Images/negative_sampling.png"/>
+<img src="./Images/negative_sampling.png"/>
 
 Below is a word2vec word embedding plot of few hand-picked words which have been dimensionally reduced to 2-dimensions
 
